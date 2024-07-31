@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: #F5D6B4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .rectangle {
+            position: absolute;
+            background-color: #D86F45;
+            height: 40px;
+            width: 100px;
+        }
+
+        .quarter_circle {
+            position: absolute;
+            background-color: #D86F45;
+            height: 40px;
+            width: 40px;           
+            border-top-left-radius: 0;
+            border-top-right-radius: 100%;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 100%;
+            translate: 250%;
+        }
+
+        .circle {
+            position: absolute;
+            background-color: #D86F45;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            translate: -50% -30%;
+        }
+
+        .circle_2 {
+            position: absolute;
+            background-color: #D86F45;
+            height: 105px;
+            width: 105px;
+            border-radius: 50%;
+            translate: 30% -57%;
+        }
+    </style>
+</body>
+<div class="rectangle">
+    <div class="quarter_circle"></div>
+</div>
+<div class="circle"></div>
+<div class="circle_2"></div>
+</html>
